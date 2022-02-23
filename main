@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>GoInternetCafe</title>
+        <link rel="stylesheet" href="assets/style/datastyle.css">
+    </head>
+    <body>
+        <header>
+            <div class="flex-container sticky">
+                <div class="display"><img src="assets/image/pc.png" class="image" alt="pc"></div>
+                <div class="display bigfont">GoInternetCafe</div>
+                <div class="display"> </div>
+                <div class="display"> </div>
+                <div class="display"><nav><br><br><a href="#Home" class="button">Home</a></nav></div>
+                <div class="display"><nav><br><br><a href="#Feature" class="button">Feature</a></nav></div>
+                <div class="display"><nav><br><br><a href="#About" class="button">About</a></nav></div>
+                <div class="display"><nav><br><br><a href="#Contact" class="button">Contact</a></nav></div>
+            </div>
+        </header>
+    <main>
+        <div id="content">
+            <article id="Home" class="card">
+                <h1>Home</h1>
+                <div class="flex-container content">
+                <div class="display double"><img src="assets/image/pc.png" class="smallimage" alt="pc"></div>
+                <div class="display double">
+                    <p class="bigfontblack">What is GoInternetCafe?</p>
+                    <p class="regularfontblack">GoInternetCafe is website for you guys who want to find recommended Internet Cafe nears you</p>
+                </div>
+                </div>
+                <div class="flex-container content">
+                    <div class="display double">
+                        <p class="bigfontblack">Find locations near you</p>
+                        <p class="regularfontblack">You can find the nearest Internet Cafe by using your GPS on your mobile</p>
+                    </div>
+                    <div class="display double"><img src="assets/image/loc.png" class="smallimage" alt="loc"></div>
+                </div>
+                <div class="flex-container content">
+                    <div class="display double"><img src="assets/image/stars.png" class="smallimage" alt="stars"></div>
+                    <div class="display double">
+                        <p class="bigfontblack">Give you the best choice</p>
+                        <p class="regularfontblack">GoInternetCafe can also provide a list of the best Internet Cafe recommendations that you should visit</p>
+                    </div>
+                    </div>
+            </article>
+            <article id="Feature" class="card">
+                <h1>Feature</h1>
+                <p class="mediumfontblack center">Our Features</p>
+                <p class="regularfontblack center">GoInternetCafe have 3 main features that you guys can enjoy</p>
+                <div class="flex-container content">
+                    <div class="display third-part">
+                        <p class="display double"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/image/loc2.png" class="smallimage" alt="loc2"></p>
+                        <p class="mediumfontblack">Find Internet Cafe Easily</p>
+                        <p class="regularfontblack">You can use this app to find the recomendations Internet Cafe nears you</p>
+                    </div>
+                    <div class="display third-part">
+                        <p class="display double"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="assets/image/thumbsup.png" class="smallimage setwidth" alt="thumbsup"></p>
+                        <p class="mediumfontblack">Provide the best Recommendations</p>
+                        <p class="regularfontblack">GoInternetCafe will provide a good list of Internet Cafe </p>
+                    </div>
+                    <div class="display third-part">
+                        <p class="display double"><img onmouseover="bigImg1(this)" onmouseout="normalImg1(this)" src="assets/image/games.png" class="smallimage" alt="puzzle"></p>
+                        <p class="mediumfontblack">Enjoy your own choice</p>
+                        <p class="regularfontblack">You can choose Internet Cafe that has been recommended by GoInternetCafe</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <aside>
+            <article class="center card">
+                <header>
+                    <h2 id="About" class="left">About</h2>
+                    <h3>Hello!</h3>
+                    <img src="assets/image/akbar.jpg" class="smallimage">
+                    <figcaption>Muhammad Akbar</figcaption>
+                    <h3>Cloud Computing Learning Path Bangkit 2022 Student</h3>
+                </header>
+            </article>
+            <article class="card">
+                <header>
+                    <h2 id="Contact" class="left">Contact</h2>
+                    <div class="flex-contain">
+                        <div class="double">
+                            <img src="assets/image/email.png" class="vsmallimage">
+                            <img src="assets/image/wa.png" class="vsmallimage">
+                        </div>
+                        <div class="double left">
+                            <h3>akbarmhmmmd&#64;gmail&#46;com</h3>
+                            <h3>089651852054</h3>
+                        </div>
+                    </div>
+                </header>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <p>GoInternetCafe &#169; 2022, Bangkit Academy</p>
+    </footer>
+    <script src="assets/floatimage.js"></script>
+    </body>
+</html>
